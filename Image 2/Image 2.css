@@ -1,0 +1,28 @@
+body{
+    border-right: 3px solid black;
+    width: 50%;
+}
+div{
+    background-color: beige;
+    padding: 5px;
+    overflow: hidden;
+}
+.P{
+    float: left;
+    text-align: left;
+    background-color:#f5f5ef;
+    height: 100px;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+}
+#Scroll{
+    overflow-y: scroll;
+    margin: 5px;
+    clear:both;
+    height: 50px;
+    font-weight: bold;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    
+}

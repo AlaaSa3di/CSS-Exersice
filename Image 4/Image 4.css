@@ -1,0 +1,39 @@
+.Box {
+    position: relative;
+    width: 220px;
+    height: 175px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color:beige;
+    padding:5px 5px 5px 5px;
+}
+
+.button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    box-shadow: 2px 2px gray;
+    border-radius: 3px;
+    color:#40498f ;
+}
+/*Box of "K"*/
+.button:nth-child(1) { top: 5; left: 5; }
+.button:nth-child(2) { top: 50px; left: 5; }
+.button:nth-child(3) { top: 50px; left: 50px; }
+.button:nth-child(4) { top: 95px; left: 5; }
+.button:nth-child(5) { top: 95px; left: 50px; }
+.button:nth-child(6) { top: 140px; left: 5; }
+.button:nth-child(7) { top: 140px; left: 50px; }
+
+/*Box of "P"*/
+.button:nth-child(8) { top: 5; left: 135px; }
+.button:nth-child(9) { top: 50px; left: 135px; }
+.button:nth-child(10) { top: 50px; left: 180px; }
+.button:nth-child(11) { top: 95px; left: 135px; }
+.button:nth-child(12) { top: 95px; left: 180px; }
+.button:nth-child(13) { top: 140px; left: 135px; }
+.button:nth-child(14) { top: 140px; left: 180px; }
